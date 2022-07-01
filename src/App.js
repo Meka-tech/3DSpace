@@ -22,7 +22,7 @@ function App() {
         }}
       >
         <ambientLight intensity={1} position={[0, 0, 0]} />
-        <OrbitControls />
+
         <Suspense fallback={null}>
           <Sun />
 
